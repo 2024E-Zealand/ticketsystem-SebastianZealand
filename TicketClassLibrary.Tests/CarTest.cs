@@ -45,7 +45,7 @@ public class CarTest
         var expected = "Car";
 
         // Act
-        var actualResult = car.Vehicle();
+        var actualResult = car.VehicleType();
         
         // Assert
         Assert.AreEqual(expected, actualResult);
@@ -60,7 +60,7 @@ public class CarTest
         var car = new Car();
         
         // Act
-        var actualResult = car.Vehicle();
+        var actualResult = car.VehicleType();
         
         // Assert
         Assert.AreNotEqual(expectedFail, actualResult);

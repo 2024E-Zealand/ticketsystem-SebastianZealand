@@ -1,17 +1,14 @@
 namespace TicketClassLibrary;
 
-/// <summary>
-/// 
-/// </summary>
-public class Car
+public abstract class Vehicle
 {
     public string Licenseplate { get; set; }
     public DateTime Date { get; set; }
-    
+
     /// <summary>
-    /// Get the price of a car
+    /// Get the price of a ticket for a Vehicle
     /// </summary>
-    /// <returns>Returns the price of the car as type double</returns>
+    /// <returns>Returns the price of the ticket as type double</returns>
     public double Price()
     {
         return 125.0;
@@ -21,8 +18,5 @@ public class Car
     /// Get the type of vehicle
     /// </summary>
     /// <returns>Returns the vehicle type as type string</returns>
-    public string Vehicle()
-    {
-        return "Car";
-    }
+    public abstract string VehicleType();
 }

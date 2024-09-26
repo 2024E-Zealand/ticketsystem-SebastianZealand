@@ -47,7 +47,7 @@ public class MCTest
         var expectedResult = "MC";
         
         // Act
-        var actualResult = mc.Vehicle();
+        var actualResult = mc.VehicleType();
         
         // Assert
         Assert.AreEqual(expectedResult, actualResult);
@@ -62,7 +62,7 @@ public class MCTest
         MC mc = new();
         
         // Act
-        var actualResult = mc.Vehicle();
+        var actualResult = mc.VehicleType();
         
         // Assert
         Assert.AreNotEqual(expectedFail, actualResult);
