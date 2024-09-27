@@ -23,8 +23,15 @@ public abstract class Vehicle
     /// Get the price of a ticket for a Vehicle
     /// </summary>
     /// <returns>Returns the price of the ticket as type double</returns>
-    public double Price()
+    public double Price(bool brobizz)
     {
+        double brobizzDiscount = 0.05; // 5% discount with brobizz
+        
+        if (brobizz)
+        {
+            return 125.0 * (1 - brobizzDiscount); // Calculate price with discount.
+        }
+        
         return 125.0;
     }
 
