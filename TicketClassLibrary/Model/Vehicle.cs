@@ -1,9 +1,19 @@
 namespace TicketClassLibrary;
 
+/// <summary>
+/// Class vehicle used for creating basic functionality for managing vehicle crossing bridges.
+/// </summary>
 public abstract class Vehicle
 {
+    /// <summary>
+    /// private variable licensePlate used for validation of property LicensePlate
+    /// </summary>
     private string _licensePlate;
 
+    /// <summary>
+    /// Property for license plate, as type string
+    /// </summary>
+    /// <exception cref="ArgumentException">If license plate number is longer than 7 char.</exception>
     public string LicensePlate
     {
         get => _licensePlate;
@@ -17,6 +27,9 @@ public abstract class Vehicle
             _licensePlate = value;
         }
     }
+    /// <summary>
+    /// Property for date, as type DateTime
+    /// </summary>
     public DateTime Date { get; set; }
 
     /// <summary>
