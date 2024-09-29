@@ -11,7 +11,7 @@ public class Car : Vehicle
     /// <returns>Returns the price of the ticket as type double</returns>
     public override double Price()
     {
-        var brobizzDiscount = 0.05;
+        var brobizzDiscount = 0.05; 
         
         if (BroBizz)
         {
