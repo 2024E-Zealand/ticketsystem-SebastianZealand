@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TicketClassLibrary.Car">
+            <summary>
+            Class for car, which inherits from Vehicle
+            </summary>
+        </member>
+        <member name="M:TicketClassLibrary.Car.Price">
+            <summary>
+            Get the price of a ticket for a Car
+            </summary>
+            <returns>Returns the price of the ticket as type double</returns>
+        </member>
+        <member name="M:TicketClassLibrary.Car.VehicleType">
+            <summary>
+            method for getting vehicle type
+            </summary>
+            <returns>Returns the vehicle type as type string</returns>
+        </member>
+        <member name="T:TicketClassLibrary.MC">
+            <summary>
+            Class for motorcycles, which inherits from Vehicle
+            </summary>
+        </member>
+        <member name="M:TicketClassLibrary.MC.Price">
+            <summary>
+            Get the price of a ticket for a Motorcycle
+            </summary>
+            <returns>Returns the price of the ticket as type double</returns>
+        </member>
+        <member name="M:TicketClassLibrary.MC.VehicleType">
+            <summary>
+            method for getting type of vehicle
+            </summary>
+            <returns>Returns the vehicle type as type string</returns>
+        </member>
+        <member name="T:TicketClassLibrary.Vehicle">
+            <summary>
+            Class vehicle used for creating basic functionality for managing vehicle crossing bridges.
+            </summary>
+        </member>
+        <member name="F:TicketClassLibrary.Vehicle._licensePlate">
+            <summary>
+            private variable licensePlate used for validation of property LicensePlate
+            </summary>
+        </member>
+        <member name="P:TicketClassLibrary.Vehicle.LicensePlate">
+            <summary>
+            Property for license plate, as type string
+            </summary>
+            <exception cref="T:System.ArgumentException">If license plate number is longer than 7 char.</exception>
+        </member>
+        <member name="P:TicketClassLibrary.Vehicle.Date">
+            <summary>
+            Property for date, as type DateTime
+            </summary>
+        </member>
+        <member name="P:TicketClassLibrary.Vehicle.BroBizz">
+            <summary>
+            Property to determine if brobizz is used for vehicle
+            </summary>
+        </member>
+        <member name="M:TicketClassLibrary.Vehicle.Price">
+            <summary>
+            Get the price of a ticket for a Vehicle
+            </summary>
+            <returns>Returns the price of the ticket as type double</returns>
+        </member>
+        <member name="M:TicketClassLibrary.Vehicle.VehicleType">
+            <summary>
+            Get the type of vehicle
+            </summary>
+            <returns>Returns the vehicle type as type string</returns>
+        </member>
+    </members>
+</doc>

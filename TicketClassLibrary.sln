@@ -5,6 +5,16 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketClassLibrary", "TicketClassLibrary\TicketClassLibrary.csproj", "{5D4543C1-8A23-4A88-824D-35285F537A58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketClassLibrary.Tests", "TicketClassLibrary.Tests\TicketClassLibrary.Tests.csproj", "{0E59AC69-748C-4442-A9BB-D3C643588EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLibrary", "StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj", "{AB1F3A91-F6D6-4190-93F3-74D322B560B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorebaeltTicketClassLibrary.Tests", "StorebaeltTicketClassLibrary.Tests\StorebaeltTicketClassLibrary.Tests.csproj", "{C1C5761C-CE16-498A-BD13-58C59BACC299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OresundbronTicketLibrary", "OresundbronTicketLibrary\OresundbronTicketLibrary.csproj", "{086E128E-39FB-4AD7-ACEF-F7BBC8D5D11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OresundbronTicketClassLibrary.Tests", "OresundbronTicketClassLibrary.Tests\OresundbronTicketClassLibrary.Tests.csproj", "{FA88EFCE-E745-44D6-A604-B0D6CC664CF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{5D4543C1-8A23-4A88-824D-35285F537A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4543C1-8A23-4A88-824D-35285F537A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4543C1-8A23-4A88-824D-35285F537A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E59AC69-748C-4442-A9BB-D3C643588EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E59AC69-748C-4442-A9BB-D3C643588EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E59AC69-748C-4442-A9BB-D3C643588EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E59AC69-748C-4442-A9BB-D3C643588EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1F3A91-F6D6-4190-93F3-74D322B560B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1F3A91-F6D6-4190-93F3-74D322B560B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1F3A91-F6D6-4190-93F3-74D322B560B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1F3A91-F6D6-4190-93F3-74D322B560B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C5761C-CE16-498A-BD13-58C59BACC299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C5761C-CE16-498A-BD13-58C59BACC299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C5761C-CE16-498A-BD13-58C59BACC299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C5761C-CE16-498A-BD13-58C59BACC299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086E128E-39FB-4AD7-ACEF-F7BBC8D5D11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086E128E-39FB-4AD7-ACEF-F7BBC8D5D11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086E128E-39FB-4AD7-ACEF-F7BBC8D5D11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086E128E-39FB-4AD7-ACEF-F7BBC8D5D11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA88EFCE-E745-44D6-A604-B0D6CC664CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA88EFCE-E745-44D6-A604-B0D6CC664CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA88EFCE-E745-44D6-A604-B0D6CC664CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA88EFCE-E745-44D6-A604-B0D6CC664CF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
